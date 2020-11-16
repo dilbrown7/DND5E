@@ -30,7 +30,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resource.armor_class",
-  "url" : "",
-  "manifest": "",
-  "download": ""
+  "url" : "https://github.com/dilbrown7/DND5E.git",
+  "manifest": "https://github.com/dilbrown7/DND5E.git",
+  "download": "https://github.com/dilbrown7/DND5E.git"
 }

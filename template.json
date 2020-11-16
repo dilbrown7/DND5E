@@ -7,46 +7,56 @@
     "templates": {
       "common": {
         "abilities": {
-          "str": {
+          "strength": {
             "value": 10,
             "proficiency": 0
           },
-          "dex": {
+          "dexterity": {
             "value": 10,
             "proficiency": 0
           },
-          "con": {
+          "constitution": {
             "value": 10,
             "proficiency": 0
           },
-          "int": {
+          "intelligence": {
             "value": 10,
             "proficiency": 0
           },
-          "wis": {
+          "wisdom": {
             "value": 10,
             "proficiency": 0
           },
-          "cha": {
+          "charisma": {
             "value": 10,
             "proficiency": 0
           }
         },
         "attributes": {
-          "ac": {
+          "armorClass": {
             "value": 10
           },
-          "hp": {
+          "hitPoints": {
             "value": 10,
             "min": 0,
             "max": 10,
             "temp": 0,
             "tempMax": 0
           },
-          "init": {
+          "initiative": {
             "value": 0,
             "bonus": 0
           }
+        },
+        "currency": {
+          "pp": 0,
+          "gp": 0,
+          "ep": 0,
+          "sp": 0,
+          "cp": 0
+        },
+        "traits": {
+          "size": "med"
         }
       },
       "creature": {
@@ -152,14 +162,7 @@
 
   "Items": {
     "types": [
-      "weapon",
-      "equipment",
-      "consumables",
-      "tool",
-      "loot",
-      "class",
-      "feat",
-      "spell"
+
     ],
     "templates": {
       "itemDescription": {
@@ -168,6 +171,17 @@
           "chat": ""
         },
         "source": ""
+      },
+      "physicalItem": {
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "isAttuned": false,
+        "isEquipped": false,
+        "rarity": "",
+        "isIdentified": true,
+        "isCraftable": true,
+        "recipe": ""
       }
     }
   }

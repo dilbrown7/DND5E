@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a71ac98-8c19-45a2-9001-ef231d18f517" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/DND5E.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lang/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.json" afterDir="false" />
+    <list default="true" id="1a71ac98-8c19-45a2-9001-ef231d18f517" name="Default Changelist" comment="Adjusted en.json and made a few changes to spelling and casing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/lang/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system.json" beforeDir="false" afterPath="$PROJECT_DIR$/system.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.json" beforeDir="false" afterPath="$PROJECT_DIR$/template.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,11 @@
       <list>
         <option value="Dillon" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -46,8 +50,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605536972267</updated>
-      <workItem from="1605536973555" duration="10128000" />
+      <workItem from="1605536973555" duration="11605000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1605554746791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605554746791</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -55,17 +67,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Adjusted en.json and made a few changes to spelling and casing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted en.json and made a few changes to spelling and casing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="836" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605549319366">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="836" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1605549319366" />
-    <state x="512" y="38" width="886" height="965" key="CommitChangelistDialog2" timestamp="1605554701811">
+    <state x="512" y="38" width="886" height="965" key="CommitChangelistDialog2" timestamp="1605556213392">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="512" y="38" width="886" height="965" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1605554701811" />
+    <state x="512" y="38" width="886" height="965" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1605556213392" />
     <state x="743" y="274" width="446" height="493" key="FileChooserDialogImpl" timestamp="1605554639634">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -78,13 +91,13 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="456" y="151" width="1007" height="739" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1605553383269" />
-    <state x="555" y="251" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605554660653">
+    <state x="555" y="251" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605554755392">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="555" y="251" width="800" height="538" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1605554660653" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605554636242">
+    <state x="555" y="251" width="800" height="538" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1605554755392" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605555473294">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1605554636242" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1605555473294" />
   </component>
 </project>
