@@ -32,5 +32,5 @@
   "secondaryTokenAttribute": "resource.armor_class",
   "url" : "https://github.com/dilbrown7/DND5E.git",
   "manifest": "https://github.com/dilbrown7/DND5E/blob/main/system.json",
-  "download": "https://github.com/dilbrown7/DND5E.git"
+  "download": "https://github.com/dilbrown7/DND5E/archive/main.zip"
 }
