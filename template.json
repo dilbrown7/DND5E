@@ -1,0 +1,188 @@
+{
+  "Actor": {
+    "type": [
+      "characters",
+      "npc"
+    ],
+    "templates": {
+      "common": {
+        "abilities": {
+          "strength": {
+            "value": 10,
+            "proficiency": 0
+          },
+          "dexterity": {
+            "value": 10,
+            "proficiency": 0
+          },
+          "constitution": {
+            "value": 10,
+            "proficiency": 0
+          },
+          "intelligence": {
+            "value": 10,
+            "proficiency": 0
+          },
+          "wisdom": {
+            "value": 10,
+            "proficiency": 0
+          },
+          "charisma": {
+            "value": 10,
+            "proficiency": 0
+          }
+        },
+        "attributes": {
+          "armorClass": {
+            "value": 10
+          },
+          "hitPoints": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempMax": 0
+          },
+          "initiative": {
+            "value": 0,
+            "bonus": 0
+          }
+        },
+        "currency": {
+          "pp": 0,
+          "gp": 0,
+          "ep": 0,
+          "sp": 0,
+          "cp": 0
+        },
+        "traits": {
+          "size": "med"
+        }
+      },
+      "creature": {
+        "attributes": {
+          "movement": {
+            "burrow": 0,
+            "climb": 0,
+            "fly": 0,
+            "swim": 0,
+            "walk": 30,
+            "units": "ft",
+            "hover": false
+          }
+        },
+        "skills": {
+          "acrobatics": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "animal_handling": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "arcana": {
+            "value": 0,
+            "ability": "int"
+          },
+          "athletics": {
+            "value": 0,
+            "ability": "str"
+          },
+          "deception" : {
+            "value": 0,
+            "ability": "cha"
+          },
+          "history": {
+            "value": 0,
+            "ability": "int"
+          },
+          "insight": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "intimidation": {
+            "value": 0,
+            "ability": "cha"
+          },
+          "investigation": {
+            "value": 0,
+            "ability": "int"
+          },
+          "medicine": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "nature": {
+            "value": 0,
+            "ability": "int"
+          },
+          "perception": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "performance": {
+            "value": 0,
+            "ability": "cha"
+          },
+          "persuasion": {
+            "value": 0,
+            "ability": "cha"
+          },
+          "religion": {
+            "value": 0,
+            "ability": "int"
+          },"sleight_of_hand": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "stealth": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "survival": {
+            "value": 0,
+            "ability": "wis"
+          }
+        },
+        "traits": {
+          "sense": {
+            "sight": 120,
+            "blindsight": 0,
+            "darkvision": 0,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "languages": {
+            "values": []
+          }
+        }
+      }
+    }
+  },
+
+  "Items": {
+    "types": [
+
+    ],
+    "templates": {
+      "itemDescription": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "source": ""
+      },
+      "physicalItem": {
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "isAttuned": false,
+        "isEquipped": false,
+        "rarity": "",
+        "isIdentified": true,
+        "isCraftable": true,
+        "recipe": ""
+      }
+    }
+  }
+}

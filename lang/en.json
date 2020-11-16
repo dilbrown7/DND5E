@@ -1,0 +1,7 @@
+{
+  "ACTOR.TypeCharacter": "Player Character",
+  "ACTOR.TypeNPC": "Non-Player Character",
+  "ITEM.TypeBackpack": "Backpack",
+  "ITEM.TypeClass": "Class",
+  "Item.TypeConsumable": "Consumable"
+}
